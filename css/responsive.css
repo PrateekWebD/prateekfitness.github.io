@@ -1,0 +1,653 @@
+@media(max-width: 1024px){
+    header nav{
+        padding: 0 2rem;
+        justify-content: space-around;
+    }
+    header nav a li{
+        margin-right: 20px;
+    }
+    .hero-left-side h1{
+        font-size: 2rem;
+    }
+    .hero-right-side::before{
+        width: 52%;
+    }
+    .hero-right-side img{
+        height: 477px;
+    }
+    .hero-buttons{
+        display: flex;
+    }
+    .app-left-side img{
+        height: 460px;
+    }
+    .app-right-side h1{
+        font-size: 2rem;
+    }
+    .app-right-side-menu button{
+        font-size: 1rem;
+    }
+    .app-right-side-menu a{
+        font-size: 1rem;
+        margin: 0 27px;
+    }
+    .tools h1{
+        font-size: 2rem;
+    }
+    .tools .cards{
+        justify-content: center;
+    }
+    .card-item{
+        width: 210px;
+        margin: 28px 23px;
+    }
+    .card-item img{
+        height: 75px;
+    }
+    .journey h1{
+        font-size: 2rem;
+    }
+    .journey-right-side img{
+        height: 400px;
+    }
+    .journey-right-side{
+        margin-left: 82px;
+    }
+    .journey-left-side button{
+        font-size: 1rem;
+    }
+    .journey-left-side a{
+        font-size: 1rem;
+        margin: 0 27px;
+    }
+    .goals-right-side h1{
+        font-size: 2rem;
+    }
+    .goals-left-side img{
+        height: 400px;
+    }
+    .goals-item{
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 768px){
+    header nav{
+        padding: 0 2rem;
+        justify-content: space-around;
+    }
+    header nav a li{
+        font-size: 1rem;
+    }
+    .right-side-menu .sub-menu button{
+        padding: 6px 10px;
+    }
+    .hero-left-side h1{
+        font-size: 2rem;
+    }
+    .hero-left-side{
+        width: 45%;
+    }
+    .hero-right-side::before{
+        width: 75%;
+        left: 94px;
+    }
+    .hero-right-side img{
+        height: 406px;
+        padding-left: 0;
+    }
+    .hero-buttons{
+        display: flex;
+    }
+    .app-left-side{
+        height: 390px;
+    }
+    .app-right-side{
+        width: 45%;
+    }
+    .app-left-side img{
+        height: 390px;
+    }
+    .app-right-side h1{
+        font-size: 2rem;
+    }
+    .app-right-side-menu button{
+        font-size: 1rem;
+    }
+    .app-right-side-menu a{
+        font-size: 1rem;
+        margin: 0 15px;
+    }
+    .tools h1{
+        font-size: 2rem;
+    }
+    .tools .cards{
+        justify-content: center;
+    }
+    .card-item{
+        width: 210px;
+        margin: 28px 14px;
+    }
+    .card-item img{
+        height: 75px;
+    }
+    .journey{
+        padding: 0 3rem;
+    }
+    .journey h1{
+        font-size: 2rem;
+    }
+    .journey-right-side img{
+        height: 300px;
+    }
+    .journey-right-side{
+        margin-left: 0;
+    }
+    .journey-left-side{
+        margin-top: 0;
+    }
+    .journey-left-side button{
+        font-size: 1rem;
+    }
+    .journey-left-side a{
+        font-size: 1rem;
+        margin: 0 6px;
+    }
+    .goals-right-side h1{
+        font-size: 2rem;
+    }
+    .goals-left-side img{
+        height: 300px;
+        margin-top: 111px;
+    }
+    .goals-right-side{
+        width: 65%;
+        margin-left: 79px;
+        margin-top: 29px;
+    }
+    .goals-item{
+        width: 93%;
+    }
+}
+
+
+@media(max-width: 425px){
+    header nav{
+        padding: 0 2rem;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav a li{
+        font-size: 1rem;
+    }
+    .left-side-menu{
+        flex-direction: column;
+        flex-direction: column;
+    }
+    .left-side-menu .sub-menu{
+        margin-left: 0px !important;
+    }
+    .right-side-menu .sub-menu button{
+        padding: 0 !important;
+        width: 80px;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 0 3rem;
+    }
+    .hero-left-side h1{
+        font-size: 2rem;
+    }
+    .hero-left-side{
+        width: 100%;
+    }
+    .hero-right-side::before{
+        width: 86%;
+        left: 94px;
+        height: 90%;
+        top: 33px;
+    }
+    .hero-right-side img{
+        height: 406px;
+        padding-left: 0;
+    }
+    .hero-buttons{
+        display: flex;
+    }
+    .app{
+        flex-direction: column-reverse;
+        padding: 0 3rem;
+    }
+    .app-left-side{
+        height: 390px;
+        margin-top: 24px;
+    }
+    .app-left-side::before{
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -23px;
+        background-color: rgb(54 170 225 / 22%);
+        height: 87%;
+        width: 43%;
+        z-index: -1;
+        border-radius: 42px;
+    }
+    .app-right-side{
+        width: 100%;
+        margin-left: 0;
+    }
+    .app-left-side img{
+        height: 300px;
+    }
+    .app-right-side h1{
+        font-size: 2rem;
+    }
+    .app-right-side-menu{
+        margin-bottom: 15px;
+    }
+    .app-right-side-menu button{
+        font-size: 1rem;
+    }
+    .app-right-side-menu a{
+        font-size: 1rem;
+        margin: 0 15px;
+    }
+    .tools h1{
+        font-size: 2rem;
+    }
+    .tools p{
+        padding: 0 1rem;
+    }
+    .tools .cards{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card-item{
+        width: 284px;
+        margin: 28px 14px;
+    }
+    .card-item img{
+        height: 75px;
+    }
+    .journey{
+        padding: 0 3rem;
+        flex-direction: column;
+    }
+    .journey h1{
+        font-size: 2rem;
+    }
+    .journey-right-side img{
+        height: 300px;
+        margin-top: 15px;
+    }
+    .journey-right-side{
+        margin-left: 0;
+    }
+    .journey-left-side{
+        margin-top: 0;
+        width: 100%;
+    }
+    .journey-left-side button{
+        font-size: 1rem;
+    }
+    .journey-left-side a{
+        font-size: 1rem;
+        margin: 0 6px;
+    }
+    .goals{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .goals-right-side h1{
+        font-size: 2rem;
+    }
+    .goals-left-side img{
+        height: 300px;
+        margin-top: 51px;
+        margin-left: 63px;
+    }
+    .goals-right-side{
+        width: 70%;
+        /* margin-left: 79px;
+        margin-top: 29px; */
+    }
+    .goals-item{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left{
+        margin-bottom: 15px;
+    }
+    .footer-left h3{
+        font-size: 1.5rem;
+    }
+    .footer-right{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 375px){
+    header nav{
+        padding: 0 2rem;
+        justify-content: space-around;
+    }
+    header nav a li{
+        font-size: 1rem;
+    }
+    .left-side-menu{
+        flex-direction: column;
+    }
+    .left-side-menu .sub-menu{
+        margin-left: 0px !important;
+    }
+    .right-side-menu .sub-menu button{
+        padding: 0 !important;
+        width: 80px;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 0 3rem;
+    }
+    .hero-left-side h1{
+        font-size: 2rem;
+    }
+    .hero-left-side{
+        width: 100%;
+    }
+    .hero-right-side::before{
+        width: 90%;
+        left: 94px;
+        height: 93%;
+        top: 14px;
+    }
+    .hero-right-side img{
+        height: 383px;
+        padding-left: 0;
+    }
+    .hero-buttons{
+        display: flex;
+    }
+    .app{
+        flex-direction: column-reverse;
+        padding: 0 3rem;
+    }
+    .app-left-side{
+        height: 390px;
+        margin-top: 24px;
+    }
+    .app-left-side::before{
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -23px;
+        background-color: rgb(54 170 225 / 22%);
+        height: 87%;
+        width: 43%;
+        z-index: -1;
+        border-radius: 42px;
+    }
+    .app-right-side{
+        width: 100%;
+        margin-left: 0;
+    }
+    .app-left-side img{
+        height: 300px;
+    }
+    .app-right-side h1{
+        font-size: 2rem;
+    }
+    .app-right-side-menu{
+        margin-bottom: 15px;
+    }
+    .app-right-side-menu button{
+        font-size: 1rem;
+    }
+    .app-right-side-menu a{
+        font-size: 1rem;
+        margin: 0 15px;
+    }
+    .tools h1{
+        font-size: 2rem;
+    }
+    .tools p{
+        padding: 0 1rem;
+    }
+    .tools .cards{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card-item{
+        width: 284px;
+        margin: 28px 14px;
+    }
+    .card-item img{
+        height: 75px;
+    }
+    .journey{
+        padding: 0 3rem;
+        flex-direction: column;
+    }
+    .journey h1{
+        font-size: 2rem;
+    }
+    .journey-right-side img{
+        height: 240px;
+        margin-top: 15px;
+    }
+    .journey-right-side{
+        margin-left: 0;
+    }
+    .journey-left-side{
+        margin-top: 0;
+        width: 100%;
+    }
+    .journey-left-side button{
+        font-size: 1rem;
+    }
+    .journey-left-side a{
+        font-size: 1rem;
+        margin: 0 6px;
+    }
+    .goals{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .goals-right-side h1{
+        font-size: 2rem;
+    }
+    .goals-left-side img{
+        height: 300px;
+        margin-top: 51px;
+        margin-left: 63px;
+    }
+    .goals-right-side{
+        width: 80%;
+        margin-left: 49px;
+        /* margin-top: 29px; */
+    }
+    .goals-item{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left{
+        margin-bottom: 15px;
+    }
+    .footer-left h3{
+        font-size: 1.5rem;
+    }
+    .footer-right{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 320px){
+    header nav{
+        padding: 0 2rem;
+        justify-content: space-around;
+    }
+    header nav a li{
+        font-size: 1rem;
+    }
+    .left-side-menu{
+        flex-direction: column;
+    }
+    .left-side-menu .sub-menu{
+        margin-left: 0px !important;
+    }
+    .right-side-menu .sub-menu button{
+        padding: 0 !important;
+        width: 80px;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 0 3rem;
+    }
+    .hero-left-side h1{
+        font-size: 2rem;
+    }
+    .hero-left-side{
+        width: 100%;
+    }
+    .hero-right-side::before{
+        width: 114%;
+        left: 73px;
+        height: 96%;
+        top: 10px;
+    }
+    .hero-right-side img{
+        height: 326px;
+        padding-left: 0;
+    }
+    .hero-buttons{
+        display: flex;
+    }
+    .app{
+        flex-direction: column-reverse;
+        padding: 0 3rem;
+    }
+    .app-left-side{
+        height: 390px;
+        margin-top: 24px;
+    }
+    .app-left-side::before{
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -23px;
+        background-color: rgb(54 170 225 / 22%);
+        height: 87%;
+        width: 43%;
+        z-index: -1;
+        border-radius: 42px;
+    }
+    .app-right-side{
+        width: 120%;
+        margin-left: 0;
+    }
+    .app-left-side img{
+        height: 300px;
+    }
+    .app-right-side h1{
+        font-size: 2rem;
+    }
+    .app-right-side-menu{
+        margin-bottom: 15px;
+    }
+    .app-right-side-menu button{
+        font-size: 1rem;
+    }
+    .app-right-side-menu a{
+        font-size: 1rem;
+        margin: 0 15px;
+    }
+    .tools{
+        width: 118%;
+    }
+    .tools h1{
+        font-size: 2rem;
+    }
+    .tools p{
+        padding: 0 1rem;
+    }
+    .tools .cards{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card-item{
+        width: 284px;
+        margin: 28px 14px;
+    }
+    .card-item img{
+        height: 75px;
+    }
+    .journey{
+        padding: 0 3rem;
+        flex-direction: column;
+    }
+    .journey h1{
+        font-size: 2rem;
+    }
+    .journey-right-side img{
+        height: 240px;
+        margin-top: 15px;
+    }
+    .journey-right-side{
+        margin-left: 0;
+    }
+    .journey-left-side{
+        margin-top: 0;
+        width: 114%;
+    }
+    .journey-left-side button{
+        font-size: 1rem;
+    }
+    .journey-left-side a{
+        font-size: 1rem;
+        margin: 0 6px;
+    }
+    .goals{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .goals-right-side h1{
+        font-size: 2rem;
+    }
+    .goals-left-side img{
+        height: 300px;
+        margin-top: 51px;
+        margin-left: 63px;
+    }
+    .goals-right-side{
+        width: 88%;
+        margin-left: 49px;
+        /* margin-top: 29px; */
+    }
+    .goals-item{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        width: 118%;
+    }
+    .footer-left{
+        margin-bottom: 15px;
+    }
+    .footer-left h3{
+        font-size: 1.5rem;
+    }
+    .footer-right{
+        flex-direction: column;
+    }
+}

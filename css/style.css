@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    --main-color: #283526;
+    --primary-color: #888888;
+    --button-background: #4b709e;
+    --primary-button-background: #fe7649;
+    --background-color: #e2efff;
+    overflow-x: hidden;
+}
+
+/* header here */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    height: 100px;
+}
+.logo h3{
+    font-size: 2rem;
+    color: #2662b7;
+}
+header nav .sub-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    color: #0000ff8c;
+}
+header nav a:hover{
+    color: blue;
+}
+header nav a li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-right: 44px;
+}
+header nav .left-side-menu{
+    display: flex;
+}
+header nav .left-side-menu .sub-menu{
+    margin-left: 61px;
+}
+header nav .right-side-menu{
+    display: flex;
+}
+header nav .right-side-menu .sub-menu button{
+    font-size: 1.2rem;
+    padding: 6px 17px;
+    border: 2px solid #2662b7;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    /* background-color: var(--button-background); */
+    background-color: #2662b7;
+    color: white;
+    transition: all 0.4s;
+}
+header nav .right-side-menu .sub-menu button:hover{
+    background-color: white;
+    color: black;
+}
+.burger{
+    display: none;
+    position: absolute;
+    top: 21px;
+    right: 12px;
+}
+.burger div{
+    border-radius: 10px;
+    height: 5px;
+    padding: 0px 15px;
+    background: black;
+    margin: 3px 4px;
+}
+
+/* hero section here */
+.hero{
+    display: flex;
+    padding: 0 6rem;
+}
+.hero-left-side{
+    width: 30%;
+    padding-top: 80px;
+}
+.hero-left-side h1{
+    font-size: 3rem;
+}
+.hero-left-side p{
+    padding: 27px 0px;
+}
+.hero-left-side img{
+    height: 39px;
+    margin: 2px 8px;
+    cursor: pointer;
+}
+.hero-right-side img{
+    height: 567px;
+    padding-left: 146px;
+}
+.hero-right-side{
+    position: relative;
+}
+.hero-right-side::before{
+    content: "";
+    position: absolute;
+    top: -104px;
+    left: 277px;
+    background-color: rgb(54 170 225 / 22%);
+    height: 113%;
+    width: 100%;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    z-index: -1;
+}
+
+/* app section here */
+.app{
+    display: flex;
+    padding: 0 6rem;
+    margin: 55px 0px;
+    margin-bottom: 100px;
+}
+.app-left-side{
+    width: 34%;
+    position: relative;
+}
+.app-left-side::before{
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: -49px;
+    background-color: rgb(54 170 225 / 22%);
+    height: 114%;
+    width: 43%;
+    z-index: -1;
+    border-radius: 42px;
+}
+.app-right-side{
+    width: 34%;
+    margin-left: 128px;
+    margin-top: 94px;
+}
+.app-left-side img{
+    height: 500px;
+}
+.app-right-side h1{
+    font-size: 3rem;
+}
+.app-right-side p{
+    padding: 27px 0;
+}
+.app-right-side button{
+    font-size: 1.2rem;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid #ff6e08;
+    outline: none;
+    color: white;
+    background: #ff6e08;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.app-right-side button:hover{
+    background-color: white;
+    color: black;
+}
+.app-right-side a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 41px;
+}
+
+
+/* tools here */
+.tools{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px 0;
+}
+.tools h1{
+    font-size: 3rem;
+}
+.cards  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-item{
+    width: 361px;
+    margin: 28px 0;
+    padding: 19px 7px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.third-card{
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 2px 7px black;
+}
+.first-card:hover, .second-card:hover{
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 2px 7px black;
+}
+.card-item img{
+    height: 100px;
+    transition: all 0.5s;
+}
+.card-item:hover > img{
+    transform: rotate(360deg);
+}
+.card-item h3{
+    padding: 4px 0;
+}
+.card-item p{
+    padding: 5px 0;
+}
+
+
+/* journey section here */
+.journey{
+    display: flex;
+    padding: 0 6rem;
+    margin: 125px 0px;
+}
+.journey-left-side{
+    width: 34%;
+    margin-top: 94px;
+}
+.journey-right-side{
+    margin-left: 128px;
+}
+.journey-right-side img{
+    height: 500px;
+}
+.journey-left-side h1{
+    font-size: 3rem;
+}
+.journey-left-side p{
+    padding: 27px 0;
+}
+.journey-left-side button{
+    font-size: 1.2rem;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid #ff6e08;
+    outline: none;
+    color: white;
+    background: #ff6e08;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.journey-left-side button:hover{
+    background-color: white;
+    color: black;
+}
+.journey-left-side a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 41px;
+}
+
+
+/* app section here */
+.goals{
+    display: flex;
+    padding: 0 6rem;
+    margin: 55px 0px;
+    margin-bottom: 100px;
+}
+.goals-left-side{
+    width: 34%;
+}
+.goals-right-side{
+    width: 50%;
+    margin-left: 124px;
+    margin-top: 29px;
+}
+.goals-left-side img{
+    height: 500px;
+}
+.goals-right-side h1{
+    font-size: 3rem;
+    padding: 20px 0;
+}
+.goals-right-side h4{
+    display: inline-block;
+}
+.goals-item{
+    width: 64%;
+}
+.goals-item i{
+    color: #ff6e08;
+}
+.goals-item p{
+    padding: 10px 0;
+}
+
+
+/* footer here */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 40px 0;
+}
+.footer-left a{
+    text-decoration: none;
+}
+.footer-left h3{
+    margin: 5px 0;
+    color: #2662b7;
+}
+.footer-right{
+    display: flex;
+}
+.footer-right-items{
+    margin: 0 35px;
+}
+.footer-right-items h5{
+    font-size: 15px;
+    margin: 5px 0;
+}
+.footer-right-items li{
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+
+
+/* social media */
+.icon-bar{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.icon-bar a{
+    text-decoration: none;
+    width: 13rem;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 4px 0px;
+    margin: 3px 0;
+    transform: translateX(-10.7rem);
+    transition: all 0.5s linear;
+}
+.icon-bar a:hover{
+    transform: translateX(0);
+}
+.icon-bar i{
+    font-size: 26px;
+    padding: 0 9px;
+}
+
+
+
+
